@@ -6,4 +6,13 @@ public class samsung extends Handphone {
     void throttle(){
         System.out.println("biiibbbiibbbiibibibbi........");
     }
+
+    public String getJenisHandphone() {
+        return JenisHandphone;
+    }
+
+    public void setJenisHandphone(String JenisHandphone) {
+        this.JenisHandphone = JenisHandphone;
+    }
+    
 }
