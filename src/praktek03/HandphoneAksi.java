@@ -7,5 +7,13 @@ public class HandphoneAksi {
             s.setHarga(1000000);
             
             s.cetakInfo();
+            
+            System.out.print("mereknya \t: ");
+            System.out.println(s.getMerk());
+            System.out.print("warnanya \t: ");
+            System.out.println(s.getWarna());
+            System.out.print("harganya \t: ");
+            System.out.println(s.getHarga());
+            
     }
 }
