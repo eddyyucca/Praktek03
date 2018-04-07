@@ -14,5 +14,9 @@ public class samsung extends Handphone {
     public void setJenisHandphone(String JenisHandphone) {
         this.JenisHandphone = JenisHandphone;
     }
+
+    String JenisHandphone() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }

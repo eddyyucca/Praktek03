@@ -5,6 +5,7 @@ public class HandphoneAksi {
             s.setMerk("android");
             s.setWarna("hirang");
             s.setHarga(1000000);
+            // gak bisa s.setJenisHandphone();
             
             s.cetakInfo();
             
@@ -15,5 +16,13 @@ public class HandphoneAksi {
             System.out.print("harganya \t: ");
             System.out.println(s.getHarga());
             
+            samsung sm = new samsung();
+            sm.setMerk("samsung");
+            sm.setWarna("habang");
+            sm.setHarga(4000000);
+            sm.setJenisHandphone("Samsung S9");
+            sm.cetakInfo();
+            System.out.println("jenis \t:"+sm.getJenisHandphone());
+            sm.throttle();
     }
 }
